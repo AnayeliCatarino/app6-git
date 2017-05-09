@@ -1,0 +1,328 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Advertencias del equipo</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app6.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head> 
+<body onLoad="MM_preloadImages('imagenes/10.jpg','imagenes/3.jpg','imagenes/4.jpg','imagenes/14.jpg')"> 
+
+    
+<div data-role="page" id="Principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1> BATALLA DE PUEBLA </h1>
+    </div>
+    
+     <div>
+      <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+      <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Batalla del 4 de mayo</h2>
+         <p> Historia</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Batalla del 5 de mayo </h2>
+         <p> Historia</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Inicio del conflicto de la batalla </h2>
+         <p> Historia </p>
+        </a>
+      </li>                
+      <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Monumentos de la batalla </h2>
+        </a>
+      </li>                  
+      <li class="ui-first-child ui-last-child">
+        <a href="=#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Héroes  </h2>
+         <p> Historias </p>
+        </a>
+       </li>
+        </ul>
+      </div>  
+       
+       <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_0"/></li>
+		<li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_1"/></li>
+		<li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_2"/></li>
+		<li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_3"/></li>
+		<li><img src="data1/images/5.jpg" alt="5" title="5" id="wows1_4"/></li>
+		<li><img src="data1/images/6.jpg" alt="6" title="6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/7.jpg" alt="wowslider" title="7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/8.jpg" alt="8" title="8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/>3</span></a>
+		<a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>4</span></a>
+		<a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>5</span></a>
+		<a href="#" title="6"><span><img src="data1/tooltips/6.jpg" alt="6"/>6</span></a>
+		<a href="#" title="7"><span><img src="data1/tooltips/7.jpg" alt="7"/>7</span></a>
+		<a href="#" title="8"><span><img src="data1/tooltips/8.jpg" alt="8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+      
+            
+        <div data-role="main" class="ui-content" align="center">
+ <div style="width:auto;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ <li class="ui-first-child ui-last-child">
+ <a href="http://www.3museos.com/?pieza=batalla-de-puebla" data-role="button" id="museo" >
+<h2>museos</h2>
+</a>
+</li>
+ <li class="ui-first-child ui-last-child">
+ <a href="http://chulavista.mx/fuertes-de-loreto-y-guadalupe-puebla-21059#.WRIOgVU1-7M" data-role="button" id="monumento">
+<h2>Monumento FUERTES DE LORETO<br> GUADALUPE  </h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+ <a href="https://www.google.com.mx/maps/search/fuertes+de+loreto+y+guadalupe+puebla/@19.05522,-98.1878595,16z/data=!3m1!4b1" data-role="button" id="museo" >
+<h2>Ubicación de la batalla <br>el 5 de mayo </h2>
+</a>
+</li>
+ <li class="ui-first-child ui-last-child">
+ <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" data-role="button" id="monumento">
+<h2>Más información </h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+    
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Anayeli Catarino Duran,sexta Aplicación  </h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+</div>    
+   
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar al menú" data-back-btn-Qué es utheme="b">
+         <h1> Batalla del 4 de mayo </h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+         <P> 
+         <h2>Historia</h2>
+         </P>
+         <p>La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las  inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla,  México, entre elementos del ejército mexicano de la república, al mando de los  generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del  Segundo Imperio Mexicano comandadas por el general José María Cobos y de  Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de  envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda  Intervención Francesa en México.1</p>
+         <p>Esta batalla culminó con una victoria republicana y debido a  esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a  las tropas francesas del Conde de Lorencez en la batalla de Puebla.</p>
+<P> 
+<h3>&nbsp;</h3>
+          <h3><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/4.jpg',1)"><img src="imagenes/1.jpg" width="270" height="186" id="Image24"></a></h3> 
+          </P>
+         </div>
+          <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+        <h1>Batalla del 4 de mayo </h1>
+        <div>
+        <p> Actualmente es una batalla tan reconocida en nuestro país </p>
+        <br>
+      </div>
+      <div>
+        <img src="imagenes/4.jpg" width="32%" height="28%">
+       </div>
+         </div>
+        </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación 6, ACD </h4>
+        </div>
+        </div>
+</div>
+        
+       
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar al menú" data-back-btn-Qué es utheme="b">
+         <h1> Batalla del 5 de mayo </h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+         <P>
+         <h2>Historia</h2>
+         </P>
+         <p>A principios de 1862, México fue invadido por los franceses.  Unos meses antes, en junio de 1861, el Congreso mexicano – a iniciativa del  Presidente Benito Juárez – había declarado la suspensión por un lapso de dos  años del pago de la deuda internacional, debido a que la economía del país  estaba prácticamente en bancarrota a raíz de la Guerra de Reforma (1857-1860)<br>
+           Aunque Inglaterra, España y Francia protestaron contra la  medida, los dos primeros llegaron a un acuerdo con los diplomáticos mexicanos.  En cambio, Napoleón III, gobernante de Francia, vio en ésta, la oportunidad de  extender su imperio en América y decidió invadir México. En abril de 1862 (con  el apoyo de los conservadores) los franceses emprendieron, desde Córdoba,  Veracruz, la campaña militar hacia el centro de la República. La primera  batalla importante tuvo lugar en Acultzingo, Veracruz, y el siguiente lugar en  la ruta a la capital era la ciudad de Puebla.<br>
+           El general Charles Ferdinand Latrille, comandante de las  tropas francesas, seguro de poder derrotar fácilmente al Ejército mexicano y  dominar al país escribió al Ministro de Guerra de Francia: &ldquo;Tenemos sobre los  mexicanos tal superioridad de raza, organización, disciplina, moralidad y  elevación de sentimientos, que os ruego digáis al emperador que a partir de  este momento y a la cabeza de seis mil soldados, soy el amo de México&rdquo;. El  Ejército francés contaba con soldados experimentados y bien aprovisionados,  considerados los mejores del mundo.<br>
+           Ante la amenaza de una intervención armada, el Presidente  Juárez dispuso la organización de las Guardias Nacionales y del Cuerpo del  Ejército de Oriente, comandado entonces por el General Ignacio Zaragoza, quien  el 5 de mayo de 1862 se enfrentó a los franceses.<br>
+           A pesar de la inferioridad numérica, del poco adestramiento  y el mal equipamiento, el triunfo mexicano fue absoluto; Zaragoza con una buena  estrategia y aprovechando lo que tenía, obligó a los franceses a replegarse. Su  experiencia fue determinante (muy joven había combatido contra la Invasión norteamericana  y después se distinguió en la Guerra de Reforma como miembro del Ejército  liberal) pues supo aprovechar la disposición de los fuertes de Loreto y  Guadalupe, que defendían la ciudad de Puebla. En esta batalla se destacó la  participación del contingente de indígenas zacapoaxtlas entre las tropas  mexicanas, quienes convencidos de que la independencia y soberanía de México se  encontraban en riesgo, tomaron las armas también.<br>
+           Desde el punto de vista estratégico, la Batalla de Puebla  fue un importante triunfo para México, pues retrasó durante un año el avance  del invasor y permitió al gobierno mexicano preparar la defensa de la ciudad.<br>
+           En marzo de 1863, casi un año después, los franceses tomaron  la ciudad de Puebla y en unos cuantos meses impusieron su dominio militar sobre  el resto del país; así se estableció el Segundo Imperio Mexicano.<br>
+           Maximiliano de Habsburgo, archiduque de Austria, llegó a  México en mayo del mismo año para convertirse en su emperador; su reinado duró  tres años, hasta que fue derrotado y fusilado por los liberales, al mando de  Benito Juárez.</p>
+<P> 
+<h3>&nbsp;</h3>
+          <h3><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('e','','imagenes/10.jpg',1)"><img src="imagenes/7.jpg" width="500" height="334" id="e"></a></h3> 
+          </P>
+         </div>
+          <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+        <h1>Batalla del 5 de mayo </h1>
+        <div>
+        <p> Actualmente es una batalla tan reconocida en nuestro país y en el mundo</p>
+        <br>
+      </div>
+      <div>
+        <img src="imagenes/8.jpg" width="32%" height="28%">
+       </div>
+         </div>
+        </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación 6, ACD </h4>
+        </div>
+        </div>
+        </div>
+       
+        
+        
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar al menú" data-back-btn-Qué es utheme="b">
+         <h1> Inicio del conflicto de la batalla </h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+         <P>
+         <h2>Historia</h2>
+         </P>
+         <p>Debido principalmente a la cantidad de deudas, , Inglaterra  y España subscribieron el Convenio de Londres, por el cual se comprometieron a  intervenir por el uso de la fuerza en México para reclamar sus derechos como  acreedores, mientras tanto el Presidente Benito Juárez declaró suspendidos los  compromisos adquiridos y aplazó pagar la deuda a las naciones europeas. Tras  desembarcar en Veracruz, España e Inglaterra aceptaron las explicaciones  mexicanas dadas en los Tratados de La Soledad, los cuales tenían como  fundamento, el respeto a la soberanía territorial, el reconocimiento de las  naciones acreedoras al Estado Mexicano, la entrada al terreno de las  negociaciones para llegar a acuerdos en común, que beneficiaría tanto a la  República Mexicana, como a los intereses de las potencias invasoras, y por  último, se permitiría que los soldados de los tres países se establecieran en  las ciudades mexicanas de Orizaba, Córdoba y Tehuacán durante las  negociaciones, debido a lo malsano del clima imperante en el puerto de  Veracruz; en caso contrario, los soldados de las tres potencias se retirarían a  las costas de Veracruz para así comenzar las hostilidades.</p>
+         <p><img src="imagenes/2.jpg" width="300" height="168" alt="l"><br>
+           El 16 de abril de 1862, el General Juan Prim, Jefe de la  Fuerzas Españolas escribía a Ignacio Zaragoza, que no habiéndose puesto de  acuerdo los representantes de los tres países, solo los españoles e ingleses  aceptarían los términos que Benito Juárez propusiese en los Tratados de la  Soledad, y se reembarcarían de regreso a casa. También puso en alerta a  Zaragoza que los franceses no aceptaron esto, pues vieron fallas en este  decreto, y que exigían pronto el pago, pues se veían amenazados por los  prusianos y no tenían con que solventar una guerra, por lo cual comenzarían una  invasión hacia la capital de la República, supuestamente para poder obtener el  pago de la deuda.</p>
+<P> 
+<h3>&nbsp;</h3>
+          <h3><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/14.jpg',1)"><img src="imagenes/5.jpg" width="277" height="182" id="Image25"></a></h3> 
+          </P>
+         </div>
+          <div data-role="main" class="ui-content">
+      
+        <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación 6, ACD </h4>
+        </div>
+        </div>
+</div></div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar al menú" data-back-btn-Qué es utheme="b">
+         <h1> Monumentos de la batalla</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+         <P>
+         <P>Fuertes de Loreto y Guadalupe                  
+         </P>
+         <p><br>
+           Los fuertes de Loreto y Guadalupe son unas antiguas  edificaciones militares que se encuentran en la ciudad de Puebla. Originalmente  se trataba de capillas construidas en lo alto de un cerro Acueyametepec, que  fueron reconstituidas a principios del siglo XIX como fortificaciones con  finalidades militares. Sirvieron como escenario principal tanto en la batalla  como en el sitio de Puebla, durante la Segunda Intervención Francesa en México.  Declarados como patrimonio histórico de México, actualmente albergan museos de  sitio.</p>
+<P> 
+<h3><img src="imagenes/15.jpg" width="308" height="151" alt="i">
+  </P>
+         </h3>
+<p>MUSEO INTERACTIVO DE LA BATALLA DEL 5 DE MAYO<br>
+  Una de las más grandes batallas que ha librado el país tuvo lugar  en la ciudad de Puebla, la batalla del 5 de mayo de 1862. En la zona de los  fuertes, en el mismo escenario del pasado, se ubica el museo interactivo.<br>
+  El recorrido por el museo utiliza la tecnología más puntera  para narrar las acciones militares y la biografía de héroes nacionales como  Negrete, Díaz y Zaragoza. Pantallas táctiles, proyecciones en 3-D y contenidos  interactivos descargables en dispositivos ofrecen una experiencia única al  visitante.</p>
+<p><img src="imagenes/13.jpg" width="481" height="346" alt="lp"></p>
+         </div>
+          <div data-role="main" class="ui-content">
+      
+        <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación 6, ACD </h4>
+        </div>
+        </div>
+</div></div>
+
+
+
+
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar al menú" data-back-btn-Qué es utheme="b">
+         <h1>HÉROES</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+         <P>
+         <P>HÉROES PRINCIPALES:</P>
+<P>GENERAL IGNACIO ZARAGOZA<br>
+Encabezó la defensa mexicana frente a la ofensiva francesa encabezada  por Carlos Latrille, mejor conocido como el Conde de Lorencez. <br>
+Nacido en el entonces departamento mexicano de Texas,  siempre se consideró él mismo un neoleonés por adopción.<br>
+Enlistado como soldado en las Guardias Nacionales del  estado, su carrera ascendió durante la Guerra de Reforma hasta convertirse en  General del Ejército Mexicano y, con el triunfo de los liberales, en Ministro  de Guerra del Presidente Benito Juárez.<br>
+Atrincherado en Puebla para hacerle frente al ejército  francés, siempre supo dar ímpetu y valor a sus hombres. México era una  incipiente realidad como nación soberana, y lo recordó a sus tropas el 4 de  mayo de 1862, en la víspera de la batalla, cuando reuniéndolos en la Plaza de  San José.
+<P><img src="imagenes/g1.jpg" width="175" height="111" alt="K"><br>
+<P>GENERAL MIGUEL NEGRETE
+<p>Es considerado por algunos historiadores como el verdadero  héroe de la Batalla de Puebla. Durante la Guerra de Reforma participó del lado  de los conservadores. Sin embargo, cuando la nación se vio invadida, se acogió  a la amnistía que el Presidente Benito Juárez extendió a todos sus antiguos  enemigos, incorporándose así a las filas republicanas. <br>
+  El 5 de Mayo estuvo al mando de las fuerzas que defendían el  Cerro de Guadalupe, recibiendo el peso del principal asalto francés.<br>
+  En el primer ataque, cuando los zuavos confiados ascendían  la pendiente, los mexicanos aguardaron hasta que el General Negrete levantó su  gorra como señal para hacer fuego.</p>
+<p><img src="imagenes/g3.jpg" width="202" height="110" alt="j"></p>
+<p>GENERAL PORFIRIO DIAZ<br>
+  Militar valiente de origen oaxaqueño, Díaz llenó su nombre  de gloria con una destacada participación durante el 5 de Mayo.<br>
+  El 5 de mayo, el político oaxaqueño y otros militares  intervinieron en la Batalla de Puebla, Díaz defendió el ala izquierda de la  ciudad, y rebatió en dos ocasiones el ataque francés. <br>
+  En un principio, retirándose en buen orden, los marinos  franceses pronto se vieron huyendo en pánico perseguidos por los Lanceros de  Oaxaca. Tan precipitada fue su huida, que muchos galos tuvieron que arrojar sus  mochilas para poder correr más aprisa de la caballería mexicana.<br>
+  Jesús González Ortega y Porfirio Díaz se dieron a la tarea  de perseguirlos, hasta que Zaragoza se los impidió. </p>
+<p><img src="imagenes/G2.jpg" width="184" height="114" alt="Ñ"><br>
+  GENERAL FELIPE BERRIOZABAL <br>
+  Político, ingeniero, Ministro de Guerra y Marina; General de  división. Sirvió de 1849 hasta el 1900 con lealtad en el Ejército mexicano,  Felipe Berriozábal participó en la Primera intervención estadounidense en  México, la Guerra de Reforma y la Segunda Intervención Francesa en México y  formó parte de los gobiernos de Benito Juárez y Porfirio Díaz. Nacido en  Zacatecas, Zacatecas, en 1827, realizó como ingeniero el proyecto hidráulico de  canalización del Río Lerma. Durante la Revolución de Ayutla participó con los  liberales bajo las órdenes del general Plutarco González. Durante la Guerra de  Reforma, el general Santos Degollado lo nombró coronel de caballería auxiliar y  más tarde ascendió a general de brigada. </p>
+<P> 
+<h3><img src="imagenes/g4.jpg" width="174" height="119" alt="o">
+  </P>
+         </h3>
+<p>&nbsp;</p>
+         </div>
+          <div data-role="main" class="ui-content">
+      
+        <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4> Aplicación 6, ACD </h4>
+        </div>
+        </div>
+</div>
+</div>
+</div>
+</body>
+</html>
